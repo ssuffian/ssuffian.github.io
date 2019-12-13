@@ -1,101 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		
-		<title>Stephen Suffian</title> 
-		
-		<meta name="description" content="Stephen Suffian" />
-		<meta name="author" content="Stephen Suffian" />
-		
-		<!-- force IE to latest rendering engine for each version; chrome frame reference -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		
-		<!-- mobile settings -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="css/font-awesome.min.css" />
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+  <!-- replace the below link with what aperture.p3k.io gives you after signing-in.
+    (Details: https://indieweb.org/Microsub#Getting_Started)
+    In summary:
+    1. sign in to https://aperture.p3k.io/login with your domain
+    2. you will see a <link> tag displayed on your dashboard
+    3. copy that <link> tag that looks like:
+      <link rel="microsub" href="https://aperture.p3k.io/microsub/000">
+      after this HTML comment. -->
+  <title>My New Website</title>
+</head>
+<body>
+  <h1>My New Website</h1>
+  <div class="h-card">
+    <p>
+      Hi, my name is <span class="p-name">Jane Smith</span> and I am a human on the Internet.
+    </p>
 
-	</head>
-	
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            
-                <div class="navbar-brand no-link">Stephen Suffian</div>
-									<a href="https://www.linkedin.com/in/stephensuffian" class="navbar-brand nav-link"><i class="fa fa-fw fa-linkedin"></i></a>
-                  <a href="http://www.github.com/ssuffian" class="navbar-brand nav-link"><i class="fa fa-fw fa-github-square"></i></a>
-    
-                  <a href="https://www.facebook.com/steve.suffian" class="navbar-brand nav-link"><i class="fa fa-fw fa-facebook"></i></a>
+    <p>
+      You can find me on other websites below:
+    </p>
 
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <div class="container container-body">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <h3>Electrical Engineer - Full-Stack Web Developer - Social Entrepreneur</h3>
-                </div>
-            </div>
-            <div class="col-md-12">
-            <div class="col-md-6">
-	            <div class="project-center">
-	            	<a href="http://hiskingdom.info"><img class="img-responsive" src="images/his_kingdom.png" alt=""></a>
-	            	<div class="project-text"><b>Needsgap LLC/ HisKingdom</b><br>
-	            	Chief Technical Officer</div>
-	            </div>
-	          </div>
-	          </div>
-	          <div class="col-md-6">
-	            <div class="project-center">
-	            	<a href="http://dssg.uchicago.edu/"><img class="img-responsive" src="images/dssg.png" alt=""></a>
-	            	<div class="project-text"><b>2014 Fellow, Project:</b></a></br>
-	            	<a href="http://dssg.uchicago.edu/2014/07/18/making-smart-meters-smarter/">Making Smart Meters Smarter</a></div>
-	            </div>
-	          </div>
-	        </div>
-	        <div class="col-md-12">
-	          <div class="col-md-4">
-	            <div class="project-center">
-	            	<a href="http://mashavukenya.wordpress.com"><img class="img-responsive" src="images/mashavulogo.jpg" alt=""></a>
-	            	<div class="project-text"><b>Mashavu</b></br>
-	            	Implementation Engineer</div>
-	            </div>
-	          </div>
-	          <div class="col-md-4">
-	            <div class="project-center">
-	            	<a href="http://www.woodsofplenty.com"><img class="img-responsive" src="images/woodsofplenty.png" alt=""></a>
-	            	<div class="project-text"><b>Woods of Plenty</b></br>
-	            	Web Developer</div>
-	            </div>
-	          </div>
-	          <div class="col-md-4">
-	            <div class="project-center">
-	            	<a href="http://www.entertainmentandbeyond.com"><img class="img-responsive" src="images/eandblogosquare.jpg" alt=""></a>
-	            	<div class="project-text"><b>Entertainment & Beyond</b><br>
-	            	Web Developer/ Occasional DJ</div>
-	            </div>
-	          </div>
-            </div>
-        </div>
-    </div>
-
-     <div class="footer">
-           <h4>Link to my <a href='docs/web_resume.pdf'>resume</a>.</h4>
-           <br>Links for My Master's Thesis Work: <a href="tomatoes/system.html">Food Value Chain System</a>,<a href="tomatoes/map.html">Map of Survey Locations</a>
-    </div>
-
-
-
-					
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-		
-	</body>
-</html>
+    <ul>
+      <!-- replace _mygithubid_ with your GitHub username -->
+      <li><a class="u-url" href="https://github.com/_mygithubid_" rel="me">@_mygithubid_</a></li>
+      
+      <!-- replace _mytwitterid_ with your Twitter username (if you have one, if not, delete the <li>…</li>) -->
+      <li><a class="u-url" href="https://twitter.com/_mytwitterid_" rel="me">@_mytwitterid_</a></li>
+    </ul>
+  </div>
+</body>
